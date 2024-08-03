@@ -3,7 +3,6 @@ const unsortedArr = [105, 79, 100, 110];
 function mergeSort(arr) {
 	//exit case
 	if (arr.length <= 1) {
-		console.log("firstescape");
 		return arr;
 	}
 
